@@ -58,7 +58,7 @@ const fragmentShader = `
 	vec2 uv = vUv;
 
 	float offset = u_time + gl_FragCoord.x/u_resolution.y;
-    vec2 displacement = displace(uv*10., offset*3.0 );
+    vec2 displacement = displace(uv*4., offset*2.0 );
     uv += 0.015*displacement;
 
     //import texture and give it displacement effect
