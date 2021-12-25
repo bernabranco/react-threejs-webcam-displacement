@@ -1,19 +1,44 @@
-#Webcam Displacement Shader
+# Webcam Displacement Filter
 
-#Technologies Used:
-- React
-- Threejs
+Webcam Displacement Filter is a very simple and highly commented example of how to use React, Threejs and GLSL to create a displacement filter and apply it to a realtime webcam stream.
 
-#Features:
-- Webcam Stream
-- GLSL Shader
-- Pixel Displacement Effect
-- Resize according to window
+## Installation
+
+Clone Repo.
+
+```bash
+https://github.com/bernabranco/react-threejs-webcam-displacement.git
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+## Usage
+
+Start application.
+
+```bash
+npm start (runs app on localhost:3000)
+```
+
+Open browser on 'localhost:3000'
+
+## Features
+
+- Realtime Webcam Stream
+- GLSL displacent filter
+- Responsive Resizing
 - FPS monotoring with 'Stats' component
 
-#Usage:
-- git clone https://github.com/bernabranco/react-threejs-webcam-displacement.git
-- cd react-threejs-webcam-displacement
-- npm install
-- npm start
-- open browser on 'localhost:3000'
+## Images
+
+<img src = "prints/print1.png" width = "100%" height = "auto">
+<img src = "prints/print2.png" width = "100%" height = "auto">
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
